@@ -1,0 +1,112 @@
+:root {
+    color-scheme: light dark;
+}
+
+html {
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 40px auto;
+    max-width: 666px;
+    line-height: 1.5;
+    font-family: URW Bookman, Libre Baskerville, Libre Caslon Text, Garamond, Georgia, Times New Roman, Times, serif;
+    font-size: 18px;
+    color: light-dark(wheat, rgb(40, 40, 40));
+    background-color: light-dark(rgb(40, 40, 40), wheat);
+    padding: 0 40px
+}
+
+.container {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+h1,
+h2,
+h3 {
+    line-height: 1.2
+}
+
+.separator-top {
+    border-top: 1px solid;
+    border-color: light-dark(whitesmoke, black);
+    }
+
+.separator-bottom {
+    border-top: 2px solid;
+    border-color: light-dark(whitesmoke, black);
+    }
+
+.small-caps {
+    color: light-dark(whitesmoke, black);
+    font-variant-caps: all-small-caps;
+}
+
+.stanza {
+    display: block;
+}
+
+.line {
+    margin-left: 1em;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-indent: -1em;
+    display: block;
+}
+
+.indented-line {
+    margin-left: 3em;
+    text-indent: -1em;
+    display: block;
+}
+
+.doubly-indented-line {
+    margin-left: 5em;
+    text-indent: -1em;
+    display: block;
+}
+
+.poem-title {
+    margin-left: 1em;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-indent: -1em;
+    display: block;
+    font-size:110%;
+    font-weight: bold;
+}
+
+.and-knot-fool-stop {
+    font-size: 200%;
+    transform: scaleX(-1);
+}
+
+.centre {
+    text-align: center;
+  }
+
+a {
+    text-decoration: underline;
+    color: light-dark(peachpuff, rgb(40, 40, 40));
+  }
+
+  .no-underline {
+    text-decoration: none;
+  }
+
+.portrait {
+    border-style: double;
+    border-color: light-dark(antiquewhite, black);
+    max-width: 100%;
+}
+
+/* well, maybe want responsive? shrink font
+and stack columns - would rather have quote
+and columns left-justified but centred - 
+want to embed font - would like to offer
+light mode too - need to do bit more on links */
