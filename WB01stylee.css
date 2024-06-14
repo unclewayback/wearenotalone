@@ -8,6 +8,7 @@ html {
     box-sizing: border-box;
 }
 
+@media screen and (min-width: 750px) {
 body {
     margin: 40px auto;
     max-width: 666px;
@@ -17,6 +18,20 @@ body {
     color: light-dark(wheat, rgb(40, 40, 40));
     background-color: light-dark(rgb(40, 40, 40), wheat);
     padding: 0 40px
+    }
+}
+
+@media screen and (max-width: 750px) {
+body {
+    margin: 40px auto;
+    max-width: 666px;
+    line-height: 1.5;
+    font-family: URW Bookman, Libre Baskerville, Libre Caslon Text, Garamond, Georgia, Times New Roman, Times, serif;
+    font-size: 14px;
+    color: light-dark(wheat, rgb(40, 40, 40));
+    background-color: light-dark(rgb(40, 40, 40), wheat);
+    padding: 0 40px
+    }
 }
 
 .container {
@@ -95,7 +110,7 @@ a {
     color: light-dark(peachpuff, rgb(40, 40, 40));
   }
 
-  .no-underline {
+.no-underline {
     text-decoration: none;
   }
 
@@ -104,9 +119,3 @@ a {
     border-color: light-dark(antiquewhite, black);
     max-width: 100%;
 }
-
-/* well, maybe want responsive? shrink font
-and stack columns - would rather have quote
-and columns left-justified but centred - 
-want to embed font - would like to offer
-light mode too - need to do bit more on links */
