@@ -104,3 +104,7 @@ a {
     border-style: double;
     max-width: 100%;
 }
+
+.no-border {
+    max-width: 100%;
+}
