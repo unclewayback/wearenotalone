@@ -46,7 +46,7 @@ h3 {
 }
 
 .text {
-    max-width: 675px;
+    max-width: 70ch;
     margin:auto;
     padding-left: 60px;
     padding-right: 60px;
