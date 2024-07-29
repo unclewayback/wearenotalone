@@ -6,7 +6,7 @@
 body {
     margin: 20px auto;
     max-width: 1600px;
-    font-family: Garamond, Georgia, Times, serif;
+    font-family: URW Bookman, Libre Baskerville, Libre Caslon Text, Garamond, Georgia, Times, serif;
     font-size: 19px;
     }
 }
@@ -15,7 +15,7 @@ body {
 body {
     margin: 20px auto;
     max-width: 1200px;
-    font-family: Garamond, Georgia, Times, serif;
+    font-family: URW Bookman, Libre Baskerville, Libre Caslon Text, Garamond, Georgia, Times, serif;
     font-size: 14px;
     }
 }
@@ -66,7 +66,6 @@ h3 {
     padding-right: 60px;
     text-align: justify;
     line-height: 1.5;
-    font-family: Garamond, Georgia, Times, serif;
 }
 
 .image {
@@ -85,7 +84,6 @@ figcaption {
     font-style: italic;
     padding: 10px;
     text-align: left;
-    font-family: Garamond, Georgia, Times, serif;
     font-size: 75%;
 }
 
