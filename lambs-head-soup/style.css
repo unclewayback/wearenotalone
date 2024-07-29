@@ -2,13 +2,23 @@
     color-scheme: light dark;
 }
 
-
+@media screen and (min-width: 666px) {
 body {
     margin: 20px auto;
     max-width: 1600px;
     font-family: Garamond, Georgia, Times, serif;
     font-size: 19px;
     }
+}
+
+@media screen and (max-width: 666px) {
+body {
+    margin: 20px auto;
+    max-width: 1200px;
+    font-family: Garamond, Georgia, Times, serif;
+    font-size: 14px;
+    }    
+}
 
 h1,
 h2,
